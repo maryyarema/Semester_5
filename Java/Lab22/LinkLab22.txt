@@ -1,0 +1,1 @@
+https://github.com/maryyarema/Semester_5/tree/main/Java/Lab22/SpringBootFreeMarker
