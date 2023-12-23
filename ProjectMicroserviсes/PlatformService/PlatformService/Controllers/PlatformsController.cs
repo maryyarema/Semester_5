@@ -78,7 +78,7 @@ namespace PlatformService.Controllers
             try
             {
                 var platformManufacturerDto = _mapper.Map<PlatformManufacturerDto>(platformReadDto);
-                platformManufacturerDto.ContactInformation = "Platform_Manufacturer";//Platform_Manufacturer
+                platformManufacturerDto.ContactInformation = "Platform_Manufacturer";//
                 _messageBusClient?.ManufacturerNewPlatform(platformManufacturerDto);
 
             }

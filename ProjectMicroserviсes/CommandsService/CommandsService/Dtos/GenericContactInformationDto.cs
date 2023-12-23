@@ -1,6 +1,6 @@
 namespace CommandsService.Dtos
 {
-    public class GenericEventDto
+    public class GenericContactInformationDto
     {
         public string ContactInformation { get; set; }
     }

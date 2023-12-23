@@ -27,7 +27,7 @@ namespace CommandsService.Models
         [Required]
         public string PatientName { get; set; } // Ім'я пацієнта, на якому була виконана процедура.
         [Required]
-        public DateTime ProcedureDate { get; set; } // Дата виконання процедури.
+         public DateTime ProcedureDate { get; set; } // Дата виконання процедури.
     
     }
 }

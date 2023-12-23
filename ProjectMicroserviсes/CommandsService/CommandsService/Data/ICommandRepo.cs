@@ -7,9 +7,6 @@ namespace CommandsService.Data
     {
         bool SaveChanges();
         IEnumerable<Platform> GetAllPlatforms();
-        // Platform GetPlatformById(int id);
-        //Platform
-
         
         void CreatePlatform(Platform plat);
         bool PlatformExits(int platformId);
